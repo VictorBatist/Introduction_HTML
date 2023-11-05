@@ -3,7 +3,7 @@
 
 *{
 margin: 0 auto;
-padding: 0;
+padding: unset;
 box-sizing: border-box;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Oswald', sans-serif;
@@ -16,7 +16,7 @@ display: flex;
 }
 
 .container{
-width: 1080px;
+width: 1920px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -25,9 +25,11 @@ justify-content: center;
 #menu ul {
 list-style-type: none;
 background-color: black;
+
 }
 #menu ul li{
 display: inline;
+
 }
 #menu ul li a{
 color: #fff;
@@ -40,9 +42,9 @@ transition: background .6s;
  background-color: #3a3e46;
 }
 .logo{
-width: 75px;
-display: block;
-padding: auto;
+width: 80px;
+display: flex;
+padding: 5px;
 margin: auto;
 
 }
