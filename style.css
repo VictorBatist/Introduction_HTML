@@ -10,7 +10,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 header{
-background-color: black;
+background-color: rgb(134, 134, 134);
 width: 100%;
 display: flex;
 }
@@ -24,7 +24,7 @@ justify-content: center;
 
 #menu ul {
 list-style-type: none;
-background-color: black;
+background-color:rgb(134, 134, 134);
 
 }
 #menu ul li{
@@ -39,7 +39,7 @@ text-decoration: none;
 transition: background .6s;
 }
 #menu ul li a:hover{
- background-color: #3a3e46;
+ background-color: #404347;
 }
 .logo{
 width: 80px;
@@ -55,5 +55,5 @@ color: #fff;
 }
 
 body{
-background-color: #727376;
+background-color: #b0b0b3;
 }
