@@ -78,3 +78,21 @@ footer{
   grid-template-columns: repeat(4, 1fr);
   padding: 2rem 3.5rem;
 }
+
+#footer_contacts h1{
+  margin-bottom: 0.75rem;
+}
+
+#footer_socialmedia{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.footer_link{
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.75rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+}
