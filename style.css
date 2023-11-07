@@ -1,6 +1,15 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 
+:root{
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #b0b0b3;
+  --color-neutral-30: rgb(134, 134, 134);
+  --color-neutral-40: #f5f5f5;
+  --color-neutral-50: #404347;
+  
+}
+
 *{
 margin: 0 auto;
 padding: unset;
@@ -10,7 +19,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 header{
-background-color: rgb(134, 134, 134);
+background-color: var(--color-neutral-30);
 width: 100%;
 display: flex;
 }
@@ -24,7 +33,7 @@ justify-content: center;
 
 #menu ul {
 list-style-type: none;
-background-color:rgb(134, 134, 134);
+background-color:var(--color-neutral-30);
 
 }
 #menu ul li{
@@ -32,14 +41,14 @@ display: inline;
 
 }
 #menu ul li a{
-color: #fff;
+color: var(--color-neutral-40);
 padding: 20px;
 display: inline-block;
 text-decoration: none;
 transition: background .6s;
 }
 #menu ul li a:hover{
- background-color: #404347;
+ background-color: var(--color-neutral-50);
 }
 .logo{
 width: 80px;
@@ -55,5 +64,79 @@ color: #fff;
 }
 
 body{
-background-color: #b0b0b3;
+background-color: var(--color-neutral-10);
 }
+
+footer{
+  width: 100%;
+  color: var(--color-neutral-40);
+}
+
+#footer_content{
+  background-color: var(--color-neutral-30);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem 3.5rem;
+}
+
+#footer_contacts h1{
+  margin-bottom: 0.75rem;
+}
+
+#footer_socialmedia{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.footer_link{
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.75rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+.footer_link :hover{
+  opacity: 0.8;
+}
+.footer_link i{
+  font-size: 1.25rem;
+}
+
+#instagram{
+  background: linear-gradient(#7f37c9, #ff2992, #ff9887);
+}
+#facebook{
+  background-color: #4267b3;
+}
+#whatsapp{
+background-color: #25d366;
+}
+
+.footer_list{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer_list .footer_link{
+  transition: all 0.4s;
+}
+
+.footer_list .footer_link :hover{
+color: var(--color-neutral-50);
+}
+
+#footer_subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
