@@ -133,3 +133,10 @@ background-color: #25d366;
 color: var(--color-neutral-50);
 }
 
+#footer_subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
